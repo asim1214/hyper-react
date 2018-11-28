@@ -1,10 +1,10 @@
 require 'hyperloop-config'
 Hyperloop.import 'hyper-store'
-Hyperloop.js_import 'react/react-source-browser', client_only: true, defines: ['ReactDOM', 'React']
-Hyperloop.js_import 'react/react-source-server', server_only: true, defines: 'React'
+# Hyperloop.js_import 'react/react-source-browser', client_only: true, defines: ['ReactDOM', 'React']
+# Hyperloop.js_import 'react/react-source-server', server_only: true, defines: 'React'
 Hyperloop.import 'browser/delay', client_only: true
 Hyperloop.import 'hyper-react'
-Hyperloop.js_import 'react_ujs', defines: 'ReactRailsUJS'
+# Hyperloop.js_import 'react_ujs', defines: 'ReactRailsUJS'
 
 if RUBY_ENGINE == 'opal'
   module Hyperloop
